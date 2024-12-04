@@ -1,6 +1,6 @@
 import pytest
 
-from ees_scientific_software_engineering.simple_function import add, multiply
+from ees_scientific_software_engineering.simple_function import add, multiply, exponent
 
 
 def test_add():
@@ -16,3 +16,7 @@ def test_add_error():
     b = 1
     with pytest.raises(TypeError, match="Arguments should be integers!"):
         add(a, b)
+
+
+def test_exponent():
+    assert exponent(2, 3) == 8
