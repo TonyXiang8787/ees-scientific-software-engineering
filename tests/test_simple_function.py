@@ -1,6 +1,6 @@
 import pytest
 
-from ees_scientific_software_engineering.simple_function import add, multiply, exponent
+from ees_scientific_software_engineering.simple_function import add, exponent, multiply
 
 
 def test_add():

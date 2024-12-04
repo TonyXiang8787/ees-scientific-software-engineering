@@ -22,6 +22,7 @@ def multiply(a: int, b: int) -> int:
     """Multiply two numbers"""
     return a * b
 
+
 def exponent(a: int, b: int) -> int:
     """Exponent two numbers"""
-    return a ** b
+    return a**b
